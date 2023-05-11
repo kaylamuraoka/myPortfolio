@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Added a Fav icon -->
+    <link rel="icon" type="image/png" href="./assets/images/headshot.jpeg" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+
+    <!-- GoogleFonts text styling -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Oswald&family=Playfair+Display:ital,wght@0,600;1,400&display=swap"
+    />
+
+    <!-- CloudFlare social media icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- Title of Page -->
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light mb-5">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img
+          src="assets/images/logo.jpg"
+          width="200"
+          alt="Kayla Muraoka"
+          loading="lazy"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href=" index.html">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="portfolio.html"
+              >Portfolio <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Portfolio Section -->
+    <!-- 5 images -->
+    <main class="mx-2">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-12">
+            <h1>Portfolio</h1>
+            <hr />
+          </div>
+        </div>
+
+        <!-- Recipe Pal and Weather Dashboard Portfolio Samples -->
+        <div class="row">
+          <!-- Recipe Pal -->
+          <div class="col-lg-6 p-3">
+            <div class="card">
+              <div class="card-header text-center">
+                <h5 class="card-title">Recipe Pal</h5>
+                <p class="font-italic mb-1">
+                  Written in JavaScript, HTML, CSS, Nov 14, 2020
+                </p>
+              </div>
+              <img
+                src="https://raw.githubusercontent.com/kaylamuraoka/Food_Application/main/readme_images/recipe_pal_responsive_design.png"
+                class="card-img-top mt-3"
+                alt="Recipe Pal Application User Interface"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Recipe Pal is a place where you can search for recipes, filter
+                  by preference, easily view ingredients required and add to
+                  your own customized grocery list. Our website makes it easy to
+                  locate open grocery stores and supermarkets nearby. So you can
+                  plan your perfect night cooking at home for family and
+                  friends, or for oneself, within a few clicks!
+                </p>
+                <p>Skills Utilized:</p>
+                <ul>
+                  <li>
+                    <p>
+                      Recipe Pal is powered by Javascript, Materialize CSS
+                      Framework, jQuery, and Google Fonts. This application
+                      utilizes three APIs: Edamam's Recipe Search API, Google
+                      Maps JavaScript API, Google Maps Places API
+                    </p>
+                  </li>
+                </ul>
+                <a
+                  href="https://github.com/kaylamuraoka/Food_Application"
+                  class="btn btn-blue"
+                  target="blank"
+                  >Github Repo</a
+                >
+                <a
+                  href="https://kaylamuraoka.github.io/Food_Application/"
+                  class="btn btn-blue"
+                  target="blank"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Weather Dashboard -->
+          <div class="col-lg-6 p-3">
+            <div class="card">
+              <div class="card-header text-center">
+                <h5 class="card-title">Weather Dashboard</h5>
+                <p class="font-italic mb-1">
+                  Written in JavaScript, HTML, CSS, Nov 4, 2020
+                </p>
+              </div>
+              <img
+                src="https://raw.githubusercontent.com/kaylamuraoka/Weather_Dashboard_With_OpenWeather_API/main/assets/images/ResponsiveViews.png"
+                class="card-img-top mt-3"
+                alt="Weather Dashboard Application User Interface"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  This weather dashboard is here to help you check the weather
+                  outlook for multiple cities so that they can plan a trip
+                  accordingly.
+                </p>
+                <p>Skills Utilized:</p>
+                <ul>
+                  <li>
+                    <p>
+                      Weather conditions of particular city are fetched from
+                      OpenWeatherMaps by sending requests for location, current
+                      temperature, humidity, wind speed, UV index and weather
+                      icon to the third-party OpenWeather API.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      This application runs in the browser and features
+                      dynamically updated HTML and CSS.
+                    </p>
+                  </li>
+                </ul>
+                <a
+                  href="https://github.com/kaylamuraoka/Weather_Dashboard_With_OpenWeather_API#weather-dashboard-using-the-openweather-api"
+                  class="btn btn-blue"
+                  target="blank"
+                  >Github Repo</a
+                >
+                <a
+                  href="https://kaylamuraoka.github.io/Weather_Dashboard_With_OpenWeather_API/"
+                  class="btn btn-blue"
+                  target="blank"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coding Interview Practice Quiz and Work Day Planner samples -->
+        <div class="row">
+          <!-- Coding Interview Practice Quiz -->
+          <div class="col-lg-6 p-3">
+            <div class="card">
+              <div class="card-header text-center">
+                <h5 class="card-title">Coding Interview Practice Quiz</h5>
+                <p class="font-italic mb-1">
+                  Written in JavaScript, HTML, CSS, October 22, 2020
+                </p>
+              </div>
+              <img
+                src="https://raw.githubusercontent.com/kaylamuraoka/Coding_Interview_Practice_Assessment/main/assets/images/codeQuizResponsiveViews.png"
+                class="card-img-top mt-3"
+                alt="Coding Quiz User Interface"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  This is a simulation of a typical timed coding quiz containg
+                  10 multiple-choice questions on JavaScript, HTML, CSS, and
+                  Bootstrap fundamentals.
+                </p>
+                <p>Skills Utilized:</p>
+                <ul>
+                  <li>
+                    <p>
+                      JavaScript to deal with events, manipulate and traverse
+                      the DOM, handle user input, and give feedback to the user,
+                      parse data to and from local storage
+                    </p>
+                  </li>
+                </ul>
+                <a
+                  href="https://github.com/kaylamuraoka/Coding_Interview_Practice_Assessment"
+                  class="btn btn-blue"
+                  target="blank"
+                  >Github Repo</a
+                >
+                <a
+                  href="https://kaylamuraoka.github.io/Coding_Interview_Practice_Assessment/"
+                  class="btn btn-blue"
+                  target="blank"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Work Day Planner -->
+          <div class="col-lg-6 p-3">
+            <div class="card">
+              <div class="card-header text-center">
+                <h5 class="card-title">Work Day Planner</h5>
+                <p class="font-italic mb-1">
+                  Powered by jQuery and written in JavaScript, HTML, CSS,
+                  October 26, 2020
+                </p>
+              </div>
+              <img
+                src="https://raw.githubusercontent.com/kaylamuraoka/Work_Day_Scheduler_Using_jQuery/main/assets/images/WorkDaySchedulerResponsiveViewsImg.png"
+                class="card-img-top mt-3"
+                alt="Work Day Planner User Interface"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  This is a simple daily planner application that allows a user
+                  to save events for each hour of the day. This helps employees
+                  with busy schdules manage their time effectively.
+                </p>
+                <p>Skills Utilized:</p>
+                <ul>
+                  <li>
+                    <p>
+                      This application uses the Moment.js 2.29.1 library to
+                      parse, validate, manipulate, and display dates and times
+                      in JavaScript.
+                    </p>
+                  </li>
+
+                  <li>
+                    <p>
+                      This app runs in the browser and features dynamically
+                      updated HTML and CSS powered by jQuery.
+                    </p>
+                  </li>
+                </ul>
+                <a
+                  href="https://github.com/kaylamuraoka/Work_Day_Scheduler_Using_jQuery"
+                  class="btn btn-blue"
+                  target="blank"
+                  >Github Repo</a
+                >
+                <a
+                  href="https://kaylamuraoka.github.io/Work_Day_Scheduler_Using_jQuery/"
+                  class="btn btn-blue"
+                  target="blank"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row for Restaurant Recommender & Ethnic Food Diversity Index and Twitter Word Frequency Analysis samples -->
+        <div class="row">
+          <!-- Restaurant Recommender & Ethnic Food Diversity Index -->
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="card-header text-center">
+                <h5 class="card-title">
+                  Restaurant Recommender & Ethnic Food Diversity Index
+                </h5>
+                <p class="font-italic mb-1">
+                  Written in python, January 2, 2018
+                </p>
+              </div>
+              <img
+                src="https://raw.githubusercontent.com/kaylamuraoka/Using-Yelp-to-Study-Ethnic-Food-Scene-by-U.S.-Capital/master/Pie-Chart.png"
+                class="card-img-top mt-3"
+                alt="Ethnic Food Diversity Index Diagram Output"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  In this project, I scraped Yelp restaurant data to investigate
+                  the food scene across different U.S capitals. This project
+                  helps us gain insight on geographic taste preferences through
+                  analyzing how different types of food are consumed across
+                  different places. This project compares the frequency of
+                  mexican, american, korean, japanese, italian, chinese, thai,
+                  mediterranean, indian, vietnamese, latin, french, filipino,
+                  greek, and hawaiian restaurants in the users home state. I
+                  created this code that ultimately prints a bar chart and pie
+                  chart to easily visualize this data. This code also recommends
+                  highly rated restaurant located in the user's home state.
+                </p>
+                <p>Skills Utilized:</p>
+                <ul>
+                  <li>
+                    <p>
+                      Python libraries for data processing, modeling, and
+                      visualization, including - Pandas, Matplotlib, Seaborn
+                    </p>
+                  </li>
+                  <li>
+                    <p>Yelp API</p>
+                  </li>
+                </ul>
+                <a
+                  href="https://github.com/kaylamuraoka/Using-Yelp-to-Study-Ethnic-Food-Scene-by-U.S.-Capital"
+                  class="btn btn-blue"
+                  target="blank"
+                  >Github Repo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Twitter Word Frequency Analysis -->
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="card-header text-center">
+                <h5 class="card-title">Twitter Word Frequency Analysis</h5>
+                <p class="font-italic mb-1">
+                  Written in python, October 15, 2020
+                </p>
+              </div>
+              <img
+                src="https://raw.githubusercontent.com/kaylamuraoka/Twitter_Scraper_Data_Analytics/main/images/sample_bargraph.png"
+                class="card-img-top mt-3"
+                alt="Twitter Word Frequency Analysis Output File Sample"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Calculating Word Frequencies in Twitter Tweets. In this
+                  project we learned how to tackle writing code in python, in
+                  addition to putting our shell scripting abilities to the test.
+                  We chose to do this project because we noticed the recent
+                  escalation of tweets mentioning the COVID-19/CoronaVirus.
+                  Therefore, we wrote several independent programs/scripts that
+                  ultimately, facilitates the analysis of tweets pulled from
+                  twitter using an API.
+                </p>
+                <p>Skills Utilized:</p>
+                <ul>
+                  <li>
+                    <p>
+                      New Python libraries: tweepy for standard search/tweets
+                    </p>
+                  </li>
+                  <li>
+                    <p>Twitter API</p>
+                  </li>
+                </ul>
+                <a
+                  href="https://github.com/kaylamuraoka/Twitter_Scraper_Data_Analytics"
+                  class="btn btn-blue"
+                  target="blank"
+                  >Github Repo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row for Aquarium Relational Database Management System sample -->
+        <div class="row">
+          <!-- Aquarium Relational Database Management System -->
+          <div class="col-lg-6 p-3">
+            <div class="card">
+              <div class="card-header text-center">
+                <h5 class="card-title">
+                  Aquarium Relational Database Management System
+                </h5>
+                <p class="font-italic mb-1">MySQL Workbench, June 7, 2019</p>
+              </div>
+              <img
+                src="https://raw.githubusercontent.com/kaylamuraoka/Waikiki-Aquarium-Database/main/images/Relational_Database_Schema_Placeholder.jpg"
+                alt="Aquarium Database Relational Schema Diagram"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  In this project, I developed a hypothetical database
+                  management system for an Aquarium monitoring the health of the
+                  animals, staff members, the enclosures the animals live in,
+                  and the services the staff members perform for the animals.
+                </p>
+                <p>Skills Utilized:</p>
+                <ul>
+                  <li>
+                    <p>
+                      MySQL Workbench to query, design, and deploy the database
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      MS Vsio to create an Entity Relationship diagram (ERD)
+                      with crows foot notation and Relational Database Schema
+                    </p>
+                  </li>
+                </ul>
+                <a
+                  href="https://github.com/kaylamuraoka/Waikiki-Aquarium-Database"
+                  class="btn btn-blue"
+                  target="blank"
+                  >Github Repo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Eat-Da-Burger! -->
+          <div class="col-lg-6 p-3">
+            <div class="card">
+              <div class="card-header text-center">
+                <h5 class="card-title">Eat-Da-Burger! Restaurant App</h5>
+                <p class="font-italic mb-1">
+                  Burger logger with MySQL, Node, Express, Handlebars and a
+                  homemade ORM
+                </p>
+              </div>
+              <img
+                src="https://raw.githubusercontent.com/kaylamuraoka/burger/main/public/assets/images/screenshot_of_app.png"
+                class="card-img-top mt-3"
+                alt="Coding Quiz User Interface"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Eat-Da-Burger! is a restaurant app that lets users input the
+                  names of burgers they'd like to eat and stores every burger in
+                  a database, whether devoured or not.
+                </p>
+                <p>Skills Utilized:</p>
+                <ul>
+                  <li>
+                    <p>
+                      Following the MVC design pattern; this application uses
+                      Node and MySQL to query and route data in the app, and
+                      Handlebars to generate the HTML.
+                    </p>
+                  </li>
+                </ul>
+                <a
+                  href="https://github.com/kaylamuraoka/burger"
+                  class="btn btn-blue"
+                  target="blank"
+                  >Github Repo</a
+                >
+                <a
+                  href="https://secure-ravine-36989.herokuapp.com/"
+                  class="btn btn-blue"
+                  target="blank"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container-fluid text-center mt-5 p-6">
+      <a
+        href="https://www.linkedin.com/in/kaylamuraoka/"
+        class="fa fa-linkedin"
+        target="_blank"
+      ></a>
+      <a
+        href="https://github.com/kaylamuraoka"
+        class="fa fa-github m-3"
+        target="_blank"
+      ></a>
+      <p>© Copyright 2020 Kayla Muraoka</p>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
